@@ -1,4 +1,5 @@
-my_name = "hanisoo"
-age = 55
-print("Hello my name is", my_name)
-print("and I'm ", age, "years old")
+def say_hello(user_name):
+    print("Hello", user_name, "how r u?")
+
+say_hello("hanisoo")
+say_hello("nico")
