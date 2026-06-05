@@ -58,3 +58,18 @@ milk_coffee = add_milk(americano)
 iced_latte = add_ice(milk_coffee)
 
 print(iced_latte)
+
+
+winner = 10
+
+if winner != 10:
+    print("Run!")
+
+elif winner >10:
+    print("elif")
+
+elif winner == 10:
+    print("elif 2")
+
+else:
+    print("Else")    
